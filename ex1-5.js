@@ -35,5 +35,14 @@ let length = wordLength(randomWord);
 console.log(length);
 console.log(`Le mot a ${length} lettres`);
 
-// 5. 
+// 5. Vérifier si un nombre saisi par l’utilisateur est pair ou impair, et afficher le résultat dans la console.
+
+let initialNumber = prompt("Donner un nombre");
+let realNumber = Number(initialNumber);
+
+if (realNumber % 2 === 0) {
+    console.log(`${realNumber} est un nombre pair.`);
+} else {
+    console.log(`${realNumber} est un nombre impair`);
+}
 
