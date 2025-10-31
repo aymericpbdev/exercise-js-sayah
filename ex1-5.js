@@ -46,3 +46,12 @@ if (realNumber % 2 === 0) {
     console.log(`${realNumber} est un nombre impair`);
 }
 
+ // 6. Écrire une fonction qui reçoit un tableau d’entiers et retourne un nouveau tableau contenant uniquement les nombres supérieurs à 10.
+
+function above10(array) {
+    return array.filter((number) => number > 10);
+}
+
+let numberS = [1, 5, 7, 20, 44, 50, 7, 64, 9, 12];
+let filteredNumbers = above10(numberS);
+console.log("Nombres supérieurs à 10 : " + filteredNumbers);
