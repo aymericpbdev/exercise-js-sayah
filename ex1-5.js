@@ -55,3 +55,19 @@ function above10(array) {
 let numberS = [1, 5, 7, 20, 44, 50, 7, 64, 9, 12];
 let filteredNumbers = above10(numberS);
 console.log("Nombres supérieurs à 10 : " + filteredNumbers);
+
+// 7. Créer un programme qui génère un mot de passe aléatoire de 8 caractères, utilisant uniquement des lettres et des chiffres.
+
+function randomPassword() {
+    const charactersList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let password = "";
+    for (let i = 0; i < 8; i++) {
+        let randomisedIndex = Math.floor(Math.random() * charactersList.length);
+        let randomCharacter = charactersList[randomisedIndex];
+        password += randomCharacter;
+    }
+    return password;
+}
+
+let newPassword = randomPassword();
+console.log(`Votre nouveau mot de pass est : ${newPassword}`);
