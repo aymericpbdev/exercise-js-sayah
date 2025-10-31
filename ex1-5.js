@@ -8,3 +8,11 @@ for (let i = 1; i <= 10; i++) {
 
 let prenom = prompt("Quel est votre prénom ?");
 console.log("Bonjour," + prenom + " !");
+
+// 3. Calculer la somme de deux nombres saisis par l’utilisateur et afficher le résultat dans la console.
+
+let firstNumber = prompt("Premier nombre de l'addition");
+let secondNumber = prompt("Deuxième nombre de l'addition");
+let numberOne = Number(firstNumber);
+let numberTwo = Number(secondNumber);
+console.log(numberOne + numberTwo);
