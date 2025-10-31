@@ -19,6 +19,20 @@ console.log(numberOne + numberTwo);
 
 // 4. Écrire une fonction qui prend une chaîne de caractères et retourne le nombre de caractères qu’elle contient.
 
-let word = prompt("Ecrivez un seul mot");
+let word = prompt("Ecrire un mot");
 let wordLength = word.length;
 console.log(wordLength + " lettres");
+
+// Reponse avec function{} au 4.
+
+function wordLength(randomWord) {
+    let randomLength = randomWord.length;
+    return randomLength;
+}
+
+let randomWord = prompt("Ecrire un mot");
+let length = wordLength(randomWord);
+console.log(length);
+
+// 5. 
+
