@@ -33,6 +33,7 @@ function wordLength(randomWord) {
 let randomWord = prompt("Ecrire un mot");
 let length = wordLength(randomWord);
 console.log(length);
+console.log(`Le mot a ${length} lettres`);
 
 // 5. 
 
