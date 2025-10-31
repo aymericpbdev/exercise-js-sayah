@@ -6,3 +6,5 @@ for (let i = 1; i <= 10; i++) {
 
 // 2. Demander à l’utilisateur son prénom avec  prompt()  et afficher “Bonjour, prénom !” dans la console.
 
+let prenom = prompt("Quel est votre prénom ?");
+console.log("Bonjour," + prenom + " !");
